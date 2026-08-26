@@ -110,6 +110,9 @@
         }
     ],
     "default_route_long_name_enabled": true,
+    "route_colors_ignored": [
+        "00214D"
+    ],
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {
         "301": "20260925"
