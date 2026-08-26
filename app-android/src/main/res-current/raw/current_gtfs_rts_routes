@@ -1,0 +1,20 @@
+90,'NL S','Northlander Southbound','',1815,3
+91,'NL N','Northlander Northbound','',1816,3
+95,'CC-MS','Cochrane - Moosonee','',1820,3
+96,'MS-CC','Moosonee - Cochrane','',1821,3
+101,'TR-NB','Toronto - North Bay','',48626,3
+102,'NB-TR','North Bay - Toronto','',48627,3
+201,'TR-SB','Toronto - Sudbury','',49587,3
+202,'SB-TR','Sudbury - Toronto','',49588,3
+301,'NB-TI','North Bay - Timmins','',50548,3
+302,'TI-NB','Timmins - North Bay','',50549,3
+401,'SB-H','Sudbury - Hearst','',51509,3
+402,'H-SB','Hearst - Sudbury','',51510,3
+501,'OTT-SB','Ottawa - Sudbury','',52470,3
+502,'SB-OTT','Sudbury - Ottawa','',52471,3
+503,'SB-SSM','Sudbury - Sault Ste Marie','',52472,3
+504,'SSM-SB','Sault Ste Marie - Sudbury','',52473,3
+601,'SSM-TB','Sault Ste Marie To Thunder Bay','',53431,3
+602,'TB-SSM','Thunder Bay To Sault Ste Marie','',53432,3
+603,'TB-WN','Thunder Bay To Winnipeg','',53433,3
+604,'WN-TB','Winnipeg To Thunder Bay','',53434,3
