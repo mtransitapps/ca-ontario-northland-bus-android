@@ -1,8 +1,131 @@
 {
     "default_route_id_enabled": true,
-    "use_route_short_name_for_route_id": true,
+    "use_route_short_name_for_route_id": false,
+    "route_short_name_cleaners": [
+        {
+            "regex": "^(ONTC)$",
+            "comment": "Remove non-descriptive text from route short names"
+        }
+    ],
+    "route_to_short_name_configs": [
+        {
+            "route_id": "90",
+            "route_long_name": "Northlander Southbound",
+            "route_short_name": "NL S"
+        },
+        {
+            "route_id": "91",
+            "route_long_name": "Northlander Northbound",
+            "route_short_name": "NL N"
+        },
+        {
+            "route_id": "95",
+            "route_long_name": "Cochrane - Moosonee",
+            "route_short_name": "CC-MS"
+        },
+        {
+            "route_id": "96",
+            "route_long_name": "Moosonee - Cochrane",
+            "route_short_name": "MS-CC"
+        },
+        {
+            "route_id": "101",
+            "route_long_name": "Toronto - North Bay",
+            "route_short_name": "TR-NB"
+        },
+        {
+            "route_id": "102",
+            "route_long_name": "North Bay - Toronto",
+            "route_short_name": "NB-TR"
+        },
+        {
+            "route_id": "201",
+            "route_long_name": "Toronto - Sudbury",
+            "route_short_name": "TR-SB"
+        },
+        {
+            "route_id": "202",
+            "route_long_name": "Sudbury - Toronto",
+            "route_short_name": "SB-TR"
+        },
+        {
+            "route_id": "301",
+            "route_long_name": "North Bay - Timmins",
+            "route_short_name": "NB-TI"
+        },
+        {
+            "route_id": "302",
+            "route_long_name": "Timmins - North Bay",
+            "route_short_name": "TI-NB"
+        },
+        {
+            "route_id": "401",
+            "route_long_name": "Sudbury - Hearst",
+            "route_short_name": "SB-H"
+        },
+        {
+            "route_id": "402",
+            "route_long_name": "Hearst - Sudbury",
+            "route_short_name": "H-SB"
+        },
+        {
+            "route_id": "501",
+            "route_long_name": "Ottawa - Sudbury",
+            "route_short_name": "OTT-SB"
+        },
+        {
+            "route_id": "502",
+            "route_long_name": "Sudbury - Ottawa",
+            "route_short_name": "SB-OTT"
+        },
+        {
+            "route_id": "503",
+            "route_long_name": "Sudbury - Sault Ste Marie",
+            "route_short_name": "SB-SSM"
+        },
+        {
+            "route_id": "504",
+            "route_long_name": "Sault Ste Marie - Sudbury",
+            "route_short_name": "SSM-SB"
+        },
+        {
+            "route_id": "601",
+            "route_long_name": "Sault Ste Marie to Thunder Bay",
+            "route_short_name": "SSM-TB"
+        },
+        {
+            "route_id": "602",
+            "route_long_name": "Thunder Bay to Sault Ste Marie",
+            "route_short_name": "TB-SSM"
+        },
+        {
+            "route_id": "603",
+            "route_long_name": "Thunder Bay to Winnipeg",
+            "route_short_name": "TB-WN"
+        },
+        {
+            "route_id": "604",
+            "route_long_name": "Winnipeg to Thunder Bay",
+            "route_short_name": "WN-TB"
+        }
+    ],
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
+    "allow_non_descriptive_head_signs_until": {
+        "301": "20260925"
+    },
+    "direction_headsign_cleaners": [
+        {
+            "regex": "\\s*(station|sta|stn)\\s*$",
+            "ignore_case": true,
+            "comment": "Remove ends with 'station'"
+        },
+        {
+            "regex": "\\s*-\\s*(union (station|sta) train)\\s*$",
+            "ignore_case": true,
+            "comment": "Remove ends with ' - union station train'"
+        }
+    ],
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
     "stop_name_cleaners": []
