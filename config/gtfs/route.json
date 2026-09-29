@@ -115,8 +115,9 @@
     ],
     "direction_finder_enabled": true,
     "allow_non_descriptive_head_signs_until": {
-        "301": "20260925"
+        "301": "20270929"
     },
+    "allow_non_descriptive_head_signs_until_301_comment": "direction ID not provided, only 1 Northbound direction on website",
     "direction_headsign_cleaners": [
         {
             "regex": "\\s*(station|sta|stn)\\s*$",
