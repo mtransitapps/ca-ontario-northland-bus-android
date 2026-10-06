@@ -69,6 +69,16 @@
             "route_short_name": "H-SB"
         },
         {
+            "route_id": "403",
+            "route_long_name": "Timmins - Thunder Bay",
+            "route_short_name": "T-TB"
+        },
+        {
+            "route_id": "404",
+            "route_long_name": "Thunder Bay - Timmins",
+            "route_short_name": "TB-T"
+        },
+        {
             "route_id": "501",
             "route_long_name": "Ottawa - Sudbury",
             "route_short_name": "OTT-SB"
