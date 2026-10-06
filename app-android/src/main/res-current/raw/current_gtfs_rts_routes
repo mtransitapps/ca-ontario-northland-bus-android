@@ -10,6 +10,8 @@
 302,'TI-NB','Timmins - North Bay','',50549,3
 401,'SB-H','Sudbury - Hearst','',51509,3
 402,'H-SB','Hearst - Sudbury','',51510,3
+403,'T-TB','Timmins - Thunder Bay','',51511,3
+404,'TB-T','Thunder Bay - Timmins','',51512,3
 501,'OTT-SB','Ottawa - Sudbury','',52470,3
 502,'SB-OTT','Sudbury - Ottawa','',52471,3
 503,'SB-SSM','Sudbury - Sault Ste Marie','',52472,3
