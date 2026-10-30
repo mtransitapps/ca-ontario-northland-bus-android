@@ -150,18 +150,18 @@
 467,'','Longlac',49.78190,-86.53317,0,51701
 474,'','Kanata',45.30976,-75.90620,0,51729
 475,'','Pic Mobert 1st Nation',48.70070,-85.53683,0,51730
-476,'','Langstaff Go Station',43.83857,-79.42300,0,51731
-477,'','Gormley Go Station',43.94091,-79.39852,0,51732
-478,'','Washago Train Shelter',44.74898,-79.33470,0,51733
-479,'','Gravenhurst Train Shelter',44.92025,-79.37057,0,51734
-480,'','Bracebridge Train Shelter',45.04310,-79.31020,0,51756
-481,'','Huntsville Train Shelter',45.32350,-79.22643,0,51757
-482,'','South River Train Shelter',45.84167,-79.37564,0,51758
-484,'','New Liskeard Train Shelter',47.51038,-79.68740,0,51760
+476,'','Langstaff Train Depot',43.83857,-79.42300,0,51731
+477,'','Gormley - Train Station',43.94091,-79.39852,0,51732
+478,'','Washago - Train Station',44.74898,-79.33470,0,51733
+479,'','Gravenhurst - Train Station',44.92025,-79.37057,0,51734
+480,'','Bracebridge - Train Depot',45.04310,-79.31020,0,51756
+481,'','Huntsville - Train Station',45.32350,-79.22643,0,51757
+482,'','South River - Train Depot',45.84167,-79.37564,0,51758
+484,'','Temiskaming Shores Station',47.51038,-79.68740,0,51760
 485,'','Englehart Station',47.82657,-79.87306,0,51761
-486,'','Swastika Train Shelter',48.10828,-80.10429,0,51762
-487,'','Matheson Train Shelter',48.53417,-80.46559,0,51763
-488,'','Temagami Train Shelter',47.06380,-79.78893,0,51764
+486,'','Swastika Depot',48.10836,-80.10514,0,51762
+487,'','Matheson - Train Station',48.53417,-80.46559,0,51763
+488,'','Temagami Station',47.06380,-79.78893,0,51764
 489,'','Toronto - Union Sta Train',43.64552,-79.38103,0,51765
 490,'','Sault Ste Marie',46.54608,-84.32418,0,51787
 500,'','Marathon',48.72075,-86.37342,0,52469
